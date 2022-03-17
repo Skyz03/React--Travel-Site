@@ -30,16 +30,38 @@ body {
 
   //   INSIDE CARD LOCATION START
   &__country {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     text-transform: uppercase;
     letter-spacing: 0.17em;
     margin-left: 0.5em;
   }
 
   &__link {
+    font-size: 0.65rem;
+    text-decoration-line: underline;
+    color: #918e9b;
+  }
+  //   INSIDE CARD LOCATION END
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+    color: #2b283a;
   }
 
-  //   INSIDE CARD LOCATION END
+  &__date {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #2b283a;
+  }
+
+  &__des {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 0.65rem;
+    color: #2b283a;
+  }
 }
 
 .card > div {

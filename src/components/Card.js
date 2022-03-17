@@ -9,6 +9,7 @@ const Card = (props) => {
       </div>
 
       <div className="card__content">
+        {/* Location section start  */}
         <div className="card__location">
           <span>
             <img src={map} alt="map-icon" />
@@ -18,13 +19,13 @@ const Card = (props) => {
             View on Google Maps
           </a>
         </div>
+        {/* Location section end */}
 
-        <h1>{props.item.title}</h1>
-        <p>
+        <h1 className="card__title">{props.item.title}</h1>
+        <p className="card__date">
           {props.item.startDate} - {props.item.endDate}
         </p>
-
-        <p>{props.item.description}</p>
+        <p className="card__des">{props.item.description}</p>
       </div>
     </div>
   );
