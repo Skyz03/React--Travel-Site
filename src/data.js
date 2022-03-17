@@ -1,4 +1,4 @@
-let data = [
+export default [
   {
     title: "Mount Fuji",
     location: "Japan",
@@ -10,5 +10,3 @@ let data = [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
   },
 ];
-
-export default data;

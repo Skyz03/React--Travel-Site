@@ -1,7 +1,15 @@
 import React from "react";
 
 const Card = () => {
-  return <h1>This is the Card Coming</h1>;
+  return (
+    <div className="card">
+      <div className="card__img">
+        <img src="https://source.unsplash.com/WLxQvbMyfas" />
+      </div>
+
+      <div className="card__content"></div>
+    </div>
+  );
 };
 
 export default Card;
