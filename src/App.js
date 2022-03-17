@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
 import data from "./data";
+import "./index.scss";
 
 const App = () => {
   // THIS IS FOR CONSTANT MAP
